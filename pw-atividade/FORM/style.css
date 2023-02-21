@@ -1,0 +1,130 @@
+body{
+  
+   background-image: url(fundo.png);
+}
+.box1e2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+.box1{
+    width: 575px;
+    height: 540px;
+    background-image: url(fundo4.png);
+}
+.box2{
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffd900;
+    width: 575px;
+    height: 540px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+#R2{
+    display: flex;
+}
+#R3{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center, left;
+}
+fieldset{
+    height: 517px;
+    width: 540px;
+    border: none;
+}
+textarea{
+    background-color: #ffe241;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#enviar{
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    width: 120px;
+    background-image: linear-gradient(rgb(255, 238, 0),rgb(158, 153, 6));
+    border: none;
+    bottom: 2px;
+}
+#cancelar{
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    width: 100px;
+    background-image: linear-gradient(rgb(255, 238, 0),rgb(158, 153, 6));
+    border: none;
+}
+#nome{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffd900;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 250px;
+    letter-spacing: 2px;
+}
+#idade{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffd900;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 250px;
+    letter-spacing: 2px;
+}
+#email{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffd900;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 250px;
+    letter-spacing: 2px;
+}
+h3{
+  margin: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .box1e2{
+        display: block;
+        margin-right: 50px;
+    }
+    .box1{
+        width: 575px;
+        height: 540px;
+        background-image: url(fundo4.png);
+    }
+    .box2{
+      
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #ffd900;
+        width: 575px;
+        height: 540px;
+        background-color: rgb(0, 0, 0);
+       
+    }
+    #element{
+        margin: 0;
+    }
+}
+
+
+
+
